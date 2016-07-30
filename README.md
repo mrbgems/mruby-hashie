@@ -1,8 +1,6 @@
 # mruby-hashie
 
-Welcome to your new mrbgem! In this directory, you'll find the files you need to be able to package up your Ruby library into a mrbgem. Put your Ruby code in the file `mrblib/hashie`.
-
-TODO: Delete this and the text above, and describe your gem
+[Hashie](https://github.com/intridea/hashie) for mruby.
 
 ## Installation
 
@@ -10,9 +8,7 @@ Add this line to build\_config.rb:
 
 ```ruby
 MRuby::Build.new do |conf|
-  conf.gem github: '[USERNAME]/mruby-hashie'
-  # or
-  conf.gem mgem: 'mruby-hashie'
+  conf.gem github: 'k0kubun/mruby-hashie'
 end
 ```
 
@@ -20,22 +16,21 @@ or add this line to your application's mrbgem.rake:
 
 ```ruby
 MRuby::Gem::Specification.new('your-mrbgem') do |spec|
-  spec.add_dependency 'mruby-hashie', github: '[USERNAME]/mruby-hashie'
-  # or
-  spec.add_dependency 'mruby-hashie', mgem: 'mruby-hashie'
+  spec.add_dependency 'mruby-hashie', github: 'k0kubun/mruby-hashie'
 end
 ```
 
 ## Usage
 
-TODO: Write usage instructions here
+Currently mruby-hashie has only `Hashie::Mash` its base `Hashie::Hash`.  
+See [intridea/hashie#mash](https://github.com/intridea/hashie#mash) for detail.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/mruby-hashie.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/k0kubun/mruby-hashie.
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Copyright (c) 2009-2014 Intridea, Inc. (http://intridea.com/) and contributors.
 
+MIT License. See [LICENSE.txt](LICENSE.txt) for details.
