@@ -8,7 +8,7 @@ Add this line to build\_config.rb:
 
 ```ruby
 MRuby::Build.new do |conf|
-  conf.gem github: 'k0kubun/mruby-hashie'
+  conf.gem mgem: 'mruby-hashie'
 end
 ```
 
@@ -16,7 +16,7 @@ or add this line to your application's mrbgem.rake:
 
 ```ruby
 MRuby::Gem::Specification.new('your-mrbgem') do |spec|
-  spec.add_dependency 'mruby-hashie', github: 'k0kubun/mruby-hashie'
+  spec.add_dependency 'mruby-hashie', mgem: 'mruby-hashie'
 end
 ```
 
