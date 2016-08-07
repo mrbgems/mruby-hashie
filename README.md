@@ -1,4 +1,4 @@
-# mruby-hashie
+# mruby-hashie [![Build Status](https://travis-ci.org/k0kubun/mruby-hashie.svg?branch=master)](https://travis-ci.org/k0kubun/mruby-hashie)
 
 [Hashie](https://github.com/intridea/hashie) for mruby.
 
