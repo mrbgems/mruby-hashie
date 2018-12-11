@@ -5,4 +5,5 @@ MRuby::Gem::Specification.new('mruby-hashie') do |spec|
     'Jerry Cheung',
     'Takashi Kokubun',
   ]
+  spec.add_dependency 'mruby-metaprog', core: 'mruby-metaprog'
 end
