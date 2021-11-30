@@ -1,4 +1,4 @@
-# mruby-hashie [![Build Status](https://travis-ci.org/k0kubun/mruby-hashie.svg?branch=master)](https://travis-ci.org/k0kubun/mruby-hashie)
+# mruby-hashie [![Build Status](https://travis-ci.org/mrbgems/mruby-hashie.svg?branch=master)](https://travis-ci.org/mrbgems/mruby-hashie)
 
 [Hashie](https://github.com/intridea/hashie) for mruby.
 
@@ -27,7 +27,7 @@ See [intridea/hashie#mash](https://github.com/intridea/hashie#mash) for detail.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/k0kubun/mruby-hashie.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mrbgems/mruby-hashie.
 
 ## License
 
